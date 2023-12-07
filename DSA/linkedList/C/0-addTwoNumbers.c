@@ -10,6 +10,10 @@
 #include "./0-addTwoNumbers.h"
 
 /**
+  * 
+ */
+
+/**
  * addTwoNumbers - Function
  * @l1: First Linked List
  * @l2: Second Linked List
@@ -24,6 +28,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
   struct ListNode* head = NULL, result = NULL;
 
   if (!l1 && !l2) return (NULL);
-  while (l1)
+  while (l1)  
   return (result);
 };
