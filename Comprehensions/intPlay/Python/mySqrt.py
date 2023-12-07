@@ -20,6 +20,13 @@ class Solution:
     def mySqrt(self, x: int) -> int:
         """Determine the Square Root of a number.
 
+        So, I might have done some digging and I got a possible
+        solution here. Let's use some Isaac Newton Magic in our
+        code. We shall be implementing the following formula
+        in our design:
+            X_n+1 = 1/2(X_n + S / X_n)
+            where X is an approximation and S is the Square
+
         Args:
             x (int): number
 
@@ -35,4 +42,4 @@ class Solution:
         for _ in range(69):
             guess = 0.5 * (guess + x / guess)
         # then finally return the value of the Approximation
-        return guess
+        return int(guess)
