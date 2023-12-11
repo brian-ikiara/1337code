@@ -1,0 +1,4 @@
+# null-ls
+.null-ls_*
+.mypy*
+__pycache__/
