@@ -26,9 +26,4 @@ class Solution:
         Returns:
             Confirmation.
         """
-        if x < 0:
-            return False
-        determinant = list(x)
-        if determinant == determinant[::-1]:
-            return True
-        return False
+        return f'{x}' == f'{x}'[::-1]
